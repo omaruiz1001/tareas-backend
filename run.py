@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 app.app_context().push()
 
-app.config['SQLALCHEMY_DATABASE_URI']='mysql://unezuvjavus3hlul:gFRXAriSSAnKs64Fzb0H@bml3fugufsusbm0gctx9-mysql.services.clever-cloud.com:3306/bml3fugufsusbm0gctx9'
+app.config['SQLALCHEMY_DATABASE_URI']='postgres://oruizusrtareas:msHsWGv9y2AVwOBce4F34wbPmPW0rIeu@dpg-cdv2ju94reb8rj502em0-a.oregon-postgres.render.com/oruizdbtareas'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
 db = SQLAlchemy(app)
